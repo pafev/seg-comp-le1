@@ -58,4 +58,4 @@ ou seja, eh uma funcao que recebe um texto plano (plain text) e uma chave arbitr
 
 O algoritmo de ataque a criptografia por transposicao nao foi implementado, devido a toda sua complexidade. Em suma, para se atacar essa criptografia e recuperar o texto plano sem conhecimento da chave, percebi que seria necessario sempre testar todas as permutacoes possiveis, ja que a distribuicao de frequencia dos algarismos do alfabeto nao se aplica de forma util a esse ataque, tendo em vista que a permutacao dos caracteres ou o valor da chave independe da quantidade de ocorrencia de cada caractere.
 
-Assim, para um texto curto de 20 caracteres, seria necessario testar 20! casos de permutacao, representando uma ordem de complexidade inviavel caso se deseja executar um ataque a criptografia em tempo habil
+Assim, para um texto curto de 20 caracteres, seria necessario testar 20! casos de permutacao, representando uma ordem de complexidade inviavel caso se deseja executar um ataque a criptografia em tempo habil.
